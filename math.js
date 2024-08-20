@@ -1,5 +1,5 @@
 function add(a, b) {
-    return a + b;
+    return parseFloat((a + b).toFixed(2));
 }
 
 function subtract(a, b) {
